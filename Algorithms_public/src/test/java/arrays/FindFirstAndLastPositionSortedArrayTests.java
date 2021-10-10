@@ -49,13 +49,10 @@ public class FindFirstAndLastPositionSortedArrayTests {
 		//Output: [-1,-1]
 
 		System.out.println("length -> " + nums.length);
-
 		int lIndex = findPos.findLeftIndex(nums, target);
 		System.out.println(lIndex);
-
 		int rIndex = findPos.findRightIndex(nums, target);
 		System.out.println(rIndex);
-
 		System.out.println(Arrays.toString(findPos.searchRange(nums, target)));
 
 	}
